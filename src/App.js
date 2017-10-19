@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import { Parallax, Background } from 'react-parallax';
-import logo from './resources/images/TeamTorres_Logo.jpg';
-import andrewBacktake from './resources/images/Andrew_McGahon_Backtake.jpg';
-import celticGrandPrix from './resources/images/Celtic_Grand_Prix.jpg'
-import Euros from './resources/images/2017_Euros.jpg'
+import gimp from './resources/images/gimp.jpg'
+import  bigdog from './resources/images/bigdog.jpg'
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem, Button } from 'react-bootstrap';
 import './App.css';
 
@@ -19,7 +17,7 @@ class App extends Component {
       <Navbar inverse collapseOnSelect>
     <Navbar.Header>
       <Navbar.Brand>
-        <a href="#">Ryan McCartney BJJ</a>
+        <a href="#">Garys a gimp.com</a>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>
@@ -46,11 +44,11 @@ class App extends Component {
     return (
       <div className="App">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css"/>
-      <h1>RyAn McCartney</h1>
+      <h1>Gary Loves it</h1>
       {navInstance}
-      <Parallax bgImage={celticGrandPrix} strength={90} >
+      <Parallax bgImage={gimp} strength={90} >
       <br/>
-          <h1 style={{color: 'white'}} > Hide yo heels, hide yo wife</h1>
+          <h1 style={{color: 'white'}} > Close up aye</h1>
           <div style={{
             width: 800,
             height: 600,
@@ -58,9 +56,9 @@ class App extends Component {
 
       </Parallax>
       <br/>
-      <h1> Rathfriland is shit</h1>
+      <h1>Wyadeeeeeeeeeeeeeerrrrrr</h1>
       <br/>
-      <Parallax bgImage={Euros} strength={100} >
+      <Parallax bgImage={bigdog} strength={100} >
       <br/>
           <h1 style={{color: 'white'}} > Ooh ah up the ra</h1>
           <div style={{
